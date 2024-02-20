@@ -27,3 +27,12 @@ Create a Client-Sever application that allows for the sending and receiving of _
     - Computes the hashed recipient userid for storing and locating saved messages.
     - Re-encrypts the message with the recipient's public key and saves it in memory.
     - Prints the hashed userid of the client, sender and recipient userid, timestamp, and plaintext message contents for marking purposes.
+
+## How to run the application
+- The server has to started first after compiling it.
+- To start the server: Java Server <Port number>
+- After starting the server then you can start the Client
+- To start Client: java Client <hostname> <Client Name> <Port number same as the one provided to the server>
+- After Logging in the Client can send messages and see if he/she has any message sent to him.
+
+
